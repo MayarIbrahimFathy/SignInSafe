@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container my-5 text-center">
+      <div class="form-group p-5 mx-auto w-75 shadow-lg">
+        <h1 class="text-info">Smart Login System</h1>
+        <input
+          type="text"
+          class="form-control my-3 py-2"
+          placeholder="Enter your email"
+          id="signInEmail"
+        />
+        <input
+          type="password"
+          class="form-control my-4 py-2"
+          placeholder="Enter your password"
+          id="signInPssword"
+        />
+        <p id="loginMessage" class="text-success"></p>
+        <button onclick="confirmData()" class="btn btn-outline-info w-100 my-3 py-2">Login</button>
+        <p class="text-white">
+          Don’t have an account?
+          <a class="text-white" href="signup.html">Sign up</a>
+        </p>
+      </div>
+    </div>
+    <script src="js/login.js"></script>
+  </body>
+</html>
